@@ -1,0 +1,171 @@
+.page_tab{
+    height:50px;
+    width:100px;
+  }
+  .tabs{
+    padding-bottom:5px;
+    background-color: #D8D8D8;
+  
+  
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  .tab_item {
+      float: left;
+      width: 10%;
+      padding: 10px;
+  
+  }
+  
+  .tab{
+    height: 40px;
+    background-color:blue;
+    border:solid;
+    border-bottom:none;
+    border-color:#8E8E8E;
+    border-width:1px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+  }
+  .tab:hover{
+    border-top:solid;
+    border-top-color: #FF8C00;
+  
+  }
+  .tabs:after {
+      content: "";
+      display: table;
+  
+  
+  }
+  .add_tab{
+    border:none;
+    width:3%;
+    height:30px;
+    margin-top:5px;
+    margin-left:10px;
+    padding:10px;
+    background-color: #AFAEAE;
+    border-radius:3px;
+  }
+  .add_tab:focus{
+    outline:none;
+  }
+  .add_tab:hover{
+    transition: 0.2s;
+    opacity:0.8;
+  }
+  .tab_anchor{
+    background-color:rgb(222, 222, 222);
+  }
+  .browser_text{
+    color:black;
+    font-size:14px;
+  }
+  .delete_tab{
+    float:right;
+    background:none;
+    border:none;
+    color:white;
+    margin-top:-35px;
+  }
+  .delete_tab:hover{
+  
+    background-color: #FF8C00;
+    border-radius:50%;
+  }
+  
+  div.deletion_pane{
+    display: none;
+  }
+  
+  div.tab:hover div.deletion_pane {
+  
+          display: block;
+  }
+  div.tab:hover{
+    background-color: #DEDEDE;
+  }
+  .input_wrapper{
+    background-color: #EAEAEA;
+  
+  }
+  .browser_input:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  
+  .navigation{
+    float: left;
+      width: 7%;
+      padding: 10px;
+  
+  }
+  .input_section{
+    float: left;
+      width: 60%;
+      padding: 10px;
+  
+  }
+  .controls{
+    float: left;
+      width: 30%;
+      padding: 10px;
+  
+  }
+  
+  .url_input{
+    margin-top:5px;
+    width:100%;
+    height:35px;
+    border-style:solid;
+    border-radius: 5px;
+    border-color:#BCBCBC;
+    border-width:0.5px;
+    padding-left:10px;
+  
+  }
+  
+  .url_input:focus{
+    outline:none;
+    border-color:#FF8C00;
+  }
+  .nav{
+  
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    padding-top:10px;
+    padding-left:20px;
+    border:none;
+    background: none;
+  
+  }
+  
+  .arrow{
+    font-size:1.5em;
+    color:#FF8C00;
+  }
+  .timesdeletion{
+    font-size:0.8em;
+  }
+  
+  .settings_bar_widgets{
+    padding:5px;
+  
+    border-radius:3px;
+    background:none;
+  }
+  .settings_bar_widgets:hover{
+    background-color: #FF8C00;
+    color:black;
+  }
+  
